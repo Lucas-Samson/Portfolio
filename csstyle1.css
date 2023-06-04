@@ -3,7 +3,7 @@ html {
     height: auto;
     background-size:600%;
 	animation: gradient 330s ease infinite;
-    background-color: gray;
+    background-image: url(image/back.jpg);
 }
 
 body {
@@ -12,6 +12,13 @@ body {
     width: auto;
 	
 }
+
+@keyframes gradient {
+	0% {background-position: 0% 50%;}
+	50% {background-position: 100% 50%;}
+	100% {background-position: 0% 50%;}
+}
+
 .menu {
     padding-top: 20px;
     padding-bottom: 20px;  
